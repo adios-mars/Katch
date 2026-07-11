@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Cormorant Garamond', serif;
+  --font-gothic: 'Pirata One', cursive;
+
+ 
+  --color-gothic-950: #0a0a0f;
+  --color-gothic-900: #12121e;
+  --color-gothic-800: #1a1a2e;
+  --color-gothic-700: #242440;
+  
+ 
+  --color-blood: #8b1538;
+  --color-blood-light: #a61e4d;
+  --color-blood-glow: #e11d48;
+  
+ 
+  --color-emerald-glow: #059669;
+  --color-emerald-soft: #10b981;
+}
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+
+.profile-bg {
+  background: 
+    radial-gradient(ellipse at 20% 20%, rgba(139,21,56,0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(139,21,56,0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(26,26,46,0.8) 0%, rgba(10,10,15,1) 100%),
+    #0a0a0f;
+}
+
+.profile-avatar-glow {
+  box-shadow: 
+    0 0 20px rgba(139,21,56,0.3),
+    0 0 40px rgba(139,21,56,0.1),
+    0 0 60px rgba(139,21,56,0.05);
+}
